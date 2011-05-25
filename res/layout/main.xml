@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+   
+    />
+    <TextView
+    android:id = "@+id/situation"
+    android:text="What's the situation?"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+     <Button
+    android:id = "@+id/accident"
+    android:text="Accident"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+     <Button
+    android:id = "@+id/driving"
+    android:text="Bad driving"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+     <Button
+    android:id = "@+id/trafficissue"
+    android:text="Traffic mayhem"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+     <TextView
+    android:id = "@+id/other"
+    android:text="Other:"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+     <EditText android:id="@+id/entry" 
+              android:layout_width="fill_parent" 
+              android:layout_height="wrap_content" 
+              android:background="@android:drawable/editbox_background"
+              android:layout_below="@id/other" />
+             
+             <Button android:id="@+id/sendmain" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:layout_below="@id/entry"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10px"
+            android:text="Send" />
+
+    <Button android:id="@+id/cancel" 
+    android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+             
+              android:layout_toLeftOf="@id/sendmain"
+            android:layout_alignTop="@id/sendmain"
+            android:text="Cancel" />
+              
+    
+</LinearLayout>

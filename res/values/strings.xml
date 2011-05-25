@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello, Patriot!</string>
+    <string name="app_name">SafeStreet</string>
+    <string name="stringlast">Your report has been submitted with _ confirmations. Thanks, Patriot!</string>
+</resources>
